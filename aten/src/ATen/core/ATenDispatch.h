@@ -2,6 +2,8 @@
 
 #include <c10/core/Backend.h>
 #include <unordered_map>
+#include <unordered_set>
+#include <ATen/core/OpsAlreadyMovedToC10.h>
 #include <c10/util/C++17.h>
 #include <memory>
 #include <mutex>
